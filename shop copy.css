@@ -1,0 +1,229 @@
+.container {
+  /* width: 1152px;
+  height: 700px; */
+  margin: 0px auto;
+  padding: 0px 79px 0px 79px;
+  background: #ffffff;
+}
+.container .topbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 39px auto;
+}
+.container .topbar h3 {
+  width: 415px;
+  height: 44px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 34px;
+
+  color: #000000;
+}
+.container .topbar .topbar-right {
+  /* display: relative;
+  top: 35px;
+  right: 92px; */
+  display: flex;
+  justify-content: flex-end;
+
+  padding-left: ;
+}
+.container .topbar .topbar-right .searchGroup {
+  width: 205px;
+  height: 32px;
+  border-bottom: 0.5px solid #c4c4c4;
+  margin-right: 125px;
+  margin-left: 100px;
+}
+.searchGroup .topbar .topbar-right .searchText {
+  width: 80%;
+  height: 15px;
+  margin-top: 5px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+
+  color: #e7f0f2;
+
+  border: none;
+}
+
+.searchGroup .topbar .topbar-right .searchButton {
+  border: none;
+  background: transparent;
+  padding: 0.4rem 0.6rem;
+}
+
+.searchGroup .topbar .topbar-right .searchButton img {
+  width: 21px;
+  height: 21px;
+}
+
+.container .topbar .topbar-right .cartGroup {
+  width: 257.65px;
+  height: 63px;
+
+  align-items: center;
+
+  /* background: #000000; */
+}
+
+.container .topbar .topbar-right .cartGroup a {
+  width: 21px;
+  height: 21px;
+}
+.container .main {
+  display: flex;
+
+  justify-content: center;
+}
+.container .main .featured {
+  display: relative;
+  bottom: 0px;
+  width: 143px;
+  height: 199.97px;
+}
+
+.featured ul li {
+  padding-left: 12px;
+  padding-bottom: 20px;
+  border-left: 1px solid #e7f0f2;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: ubuntu;
+}
+.featured ul li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.container .main-center .pageing .list {
+  margin: 0px auto;
+}
+.container .main-center .kolaseGroup {
+  display: flex;
+  flex-wrap: wrap;
+  width: 680px;
+  justify-content: center;
+  align-items: flex-start;
+
+  /* margin: 0px 40px 45px 75px; */
+}
+.main-center .kolaseGroup .kolase1 .titleGroup {
+  width: 173px;
+  height: 116px;
+  background: rgba(231, 240, 242, 0.3);
+  backdrop-filter: blur(6px);
+  position: relative;
+  margin: 0 20px 31px 20px;
+}
+.kolaseGroup .titleGroup {
+  width: 137px;
+  height: 46px;
+}
+.titleGroup strong {
+  font-family: ubuntu;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13.79px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.titleGroup p {
+  font-family: ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 11.49px;
+
+  color: #000000;
+}
+.footer {
+  /* width: 1152px; */
+  height: 39px;
+
+  border-top: 1px solid #c4c4c4;
+  background: #ffffff;
+  margin: 0px auto;
+}
+.footer img {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  margin: 0.5rem auto;
+}
+.filterGroup {
+  width: 146px;
+  height: 199.97px;
+}
+.filterGroup ul li {
+  color: black;
+  padding-right: 22px;
+  padding-bottom: 21px;
+  border-right: 1px solid #e7f0f2;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: ubuntu;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+}
+.filterGroup ul li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container .main-center .list {
+  justify-content: space-around;
+  width: 446px;
+  height: 30px;
+  margin: 51px auto 45px;
+}
+.container .main-center .list ul {
+  margin: 0px auto;
+}
+.container .main-center .list ul li {
+  /* position: relative; */
+  display: inline-block;
+  /* justify-content: space-around; */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 1em;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px auto;
+  color: #e7f0f24d;
+}
+.list ul li a {
+  text-decoration: none;
+}
+
+.active {
+  color: black;
+  font-weight: bold;
+}

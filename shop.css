@@ -1,0 +1,268 @@
+.container {
+  position: relative;
+  width: 1152px;
+  height: 700px;
+  margin: 0px auto;
+  background: #ffffff;
+}
+.container h3 {
+  position: absolute;
+  width: 415px;
+  height: 44px;
+  left: 76px;
+  top: 39px;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 34px;
+
+  color: #000000;
+}
+.container .searchGroup {
+  position: relative;
+  width: 205px;
+  height: 32px;
+  left: 728px;
+  top: 35px;
+  border-bottom: 0.5px solid #c4c4c4;
+}
+.searchGroup .searchText {
+  position: absolute;
+  width: 80%;
+  height: 15px;
+  left: 5px;
+  top: 5px;
+  margin-top: 5px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+
+  color: #e7f0f2;
+
+  border: none;
+}
+
+.searchGroup .searchButton {
+  position: absolute;
+
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: none;
+  background: transparent;
+  padding: 0.4rem 0.6rem;
+}
+
+.searchGroup .searchButton img {
+  width: 21px;
+  height: 21px;
+}
+
+.container .cartGroup {
+  position: absolute;
+  width: 257.65px;
+  height: 63px;
+  left: 930.77px;
+  top: 14.81px;
+  align-items: center;
+
+  /* background: #000000; */
+}
+
+.container .cartGroup a {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 92px;
+  top: 35px;
+}
+.container .featured {
+  position: absolute;
+  width: 143px;
+  height: 199.97px;
+  left: 76px;
+  top: 335px;
+}
+
+.featured ul li {
+  padding-left: 12px;
+  padding-bottom: 20px;
+  border-left: 1px solid #e7f0f2;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: ubuntu;
+}
+.featured ul li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.kolase1,
+.kolase2,
+.kolase3,
+.kolase4,
+.kolase5,
+.kolase6,
+.kolase7,
+.kolase8,
+.kolase9 {
+  position: absolute;
+  width: 173px;
+  height: 116px;
+  background: rgba(231, 240, 242, 0.3);
+  backdrop-filter: blur(6px);
+}
+.kolase1 {
+  left: 294px;
+  top: 125px;
+}
+.kolase2 {
+  left: 507px;
+  top: 125px;
+}
+.kolase3 {
+  left: 720px;
+  top: 125px;
+}
+.kolase4 {
+  left: 294px;
+  top: 272px;
+}
+.kolase5 {
+  left: 507px;
+  top: 272px;
+}
+.kolase6 {
+  left: 720px;
+  top: 272px;
+}
+.kolase7 {
+  left: 294px;
+  top: 419px;
+}
+.kolase8 {
+  left: 507px;
+  top: 419px;
+}
+.kolase9 {
+  left: 720px;
+  top: 419px;
+}
+.titleGroup {
+  position: relative;
+  width: 137px;
+  height: 46px;
+  left: 17px;
+  top: 70px;
+  right: 21px;
+}
+.titleGroup strong {
+  font-family: ubuntu;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13.79px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.titleGroup p {
+  font-family: ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 11.49px;
+
+  color: #000000;
+}
+.footer {
+  position: relative;
+  width: 1152px;
+  height: 39px;
+  left: 0px;
+  top: 661px;
+  border-top: 1px solid #c4c4c4;
+  background: #ffffff;
+  margin: 0px auto;
+}
+.footer img {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  margin: 0.5rem auto;
+}
+.filterGroup {
+  position: absolute;
+  width: 146px;
+  height: 199.97px;
+  left: 933px;
+  top: 125px;
+}
+.filterGroup ul li {
+  color: black;
+  padding-right: 22px;
+  padding-bottom: 21px;
+  border-right: 1px solid #e7f0f2;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: ubuntu;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+}
+.filterGroup ul li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.container .list {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 446px;
+  height: 30px;
+  left: 353px;
+  top: 586px;
+}
+.container z.list ul li {
+  /* position: relative; */
+  display: inline-block;
+  justify-content: space-around;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 1em;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px auto;
+  color: #e7f0f24d;
+}
+.list ul li a {
+  text-decoration: none;
+}
+
+.active {
+  color: black;
+  font-weight: bold;
+}

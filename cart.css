@@ -1,0 +1,15 @@
+/* bagian cart.html */
+.container {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10vh 10vw;
+}
+
+.thumbnail img {
+  width: 10px;
+  height: 10px;
+}
+.info {
+  width: 100vw;
+  background-color: salmon;
+}
