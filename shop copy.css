@@ -1,6 +1,6 @@
 .container {
-  /* width: 1152px;
-  height: 700px; */
+  width: 1152px;
+  /* height: 700px; */
   margin: 0px auto;
   padding: 0px 79px 0px 79px;
   background: #ffffff;
@@ -11,7 +11,6 @@
   margin: 39px auto;
 }
 .container .topbar h3 {
-  width: 415px;
   height: 44px;
 
   font-family: Ubuntu;
@@ -32,13 +31,12 @@
   padding-left: ;
 }
 .container .topbar .topbar-right .searchGroup {
-  width: 205px;
   height: 32px;
   border-bottom: 0.5px solid #c4c4c4;
   margin-right: 125px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
-.searchGroup .topbar .topbar-right .searchText {
+.topbar-right .searchGroup .searchText {
   width: 80%;
   height: 15px;
   margin-top: 5px;
@@ -55,19 +53,19 @@
   border: none;
 }
 
-.searchGroup .topbar .topbar-right .searchButton {
+.topbar .topbar-right .searchButton {
   border: none;
   background: transparent;
-  padding: 0.4rem 0.6rem;
+  /* padding: 0.4rem 0.6rem; */
 }
 
-.searchGroup .topbar .topbar-right .searchButton img {
+.topbar-right .searchButton img {
   width: 21px;
   height: 21px;
 }
 
 .container .topbar .topbar-right .cartGroup {
-  width: 257.65px;
+  /* width: 257.65px; */
   height: 63px;
 
   align-items: center;
@@ -82,13 +80,14 @@
 .container .main {
   display: flex;
 
-  justify-content: center;
+  justify-content: space-between;
 }
 .container .main .featured {
-  display: relative;
-  bottom: 0px;
   width: 143px;
-  height: 199.97px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
 }
 
 .featured ul li {
@@ -107,9 +106,34 @@
   line-height: 14px;
   font-weight: bold;
   text-decoration: none;
+  color: #000000;
 }
-.container .main-center .pageing .list {
-  margin: 0px auto;
+ .pagination-wraper {
+  margin: 51px auto 45px auto;
+  display: flex;
+  justify-content: center;
+  
+}
+.pagination-wraper ul{
+  border-top: 1px solid #E7F0F2;
+  display: flex;
+  height: 30px;
+  padding-top: 8px;
+}
+.pagination-wraper ul li{
+  margin: auto 10px
+}
+.pagination-wraper ul li a.active{
+  color: #000000;
+}
+.pagination-wraper ul li a{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  color: grey;
+
 }
 .container .main-center .kolaseGroup {
   display: flex;
@@ -120,19 +144,19 @@
 
   /* margin: 0px 40px 45px 75px; */
 }
-.main-center .kolaseGroup .kolase1 .titleGroup {
+/* .main-center .kolaseGroup .kolase1 .titleGroup {
   width: 173px;
   height: 116px;
   background: rgba(231, 240, 242, 0.3);
   backdrop-filter: blur(6px);
   position: relative;
-  margin: 0 20px 31px 20px;
+  margin: 0 20px 31px 20px; */
 }
-.kolaseGroup .titleGroup {
+.product-card .titleGroup {
   width: 137px;
   height: 46px;
 }
-.titleGroup strong {
+.product-card strong {
   font-family: ubuntu;
   font-style: bold;
   font-weight: bold;
@@ -168,11 +192,11 @@
 }
 .filterGroup {
   width: 146px;
-  height: 199.97px;
+  
 }
 .filterGroup ul li {
   color: black;
-  padding-right: 22px;
+  /* padding-right: 22px; */
   padding-bottom: 21px;
   border-right: 1px solid #e7f0f2;
   font-weight: bold;
@@ -193,12 +217,13 @@
   line-height: 14px;
   font-weight: bold;
   text-decoration: none;
+  color: #000000;
 }
 
 .container .main-center .list {
   justify-content: space-around;
   width: 446px;
-  height: 30px;
+  
   margin: 51px auto 45px;
 }
 .container .main-center .list ul {
@@ -226,4 +251,36 @@
 .active {
   color: black;
   font-weight: bold;
+}
+
+.product-card {
+  width: 173px;
+  height: 116px;
+  margin: 15px 20px;
+  background: rgba(231, 240, 242, 0.3);
+  position: relative;
+}
+
+.product-section{
+  position: absolute;
+  top:70px;
+  left:15px;
+}
+
+.product-section h4{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+
+.product-section h5{
+  font-family: 'Ubuntu';
+  font-style: normal;
+  /* font-weight: 900; */
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;
 }

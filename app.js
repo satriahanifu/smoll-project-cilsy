@@ -11,11 +11,13 @@ let listProduct = "";
 // // looping product
 for (let x = 0; x < 9; x++) {
   listProduct += `
-      <div class="product-card">
-         <div class="product-section">
-            <h4>Title ${x + 1}</h4>
-            <h5>Category</h5>
-         </div>
+      <div class="product-card" onClick="navigateTo('cart - Copy.html')">
+
+          <div class="product-section">
+              <h4>Title ${x + 1}</h4>
+              <h5>Category</h5>
+          </div>
+
       </div>
    `;
 }
@@ -30,3 +32,10 @@ const backButton = document.getElementById("tombol-kembali");
 backButton?.addEventListener("click", function () {
   history.back();
 });
+
+function navigateTo(url) {
+  window.open(url, "_self");
+}
+function goBack() {
+  history.back();
+}
